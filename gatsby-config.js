@@ -30,6 +30,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-page-creator",
       options: {
+        name: "pages",
         path: `${__dirname}/src/pages`
       }
     }
