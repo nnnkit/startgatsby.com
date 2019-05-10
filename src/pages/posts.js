@@ -12,8 +12,11 @@ export default function posts() {
       <div
         css={css`
           display: grid;
-          grid-gap: 20px;
-          grid-template-columns: repeat(auto-fill, minmax(28%, 1fr));
+          grid-gap: 4%;
+          grid-template-columns: repeat(auto-fill, minmax(26%, 1fr));
+          div :first-of-type {
+            margin-top: 1rem;
+          }
         `}
       >
         {posts.map(post => (
