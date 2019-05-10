@@ -12,9 +12,9 @@ const Layout = ({ children }) => {
             margin: 0;
           }
           /* More info: https://bit.ly/2PsCnzk */
-          * + * {
+          /* * + * {
             margin-top: 1rem;
-          }
+          } */
           html,
           body {
             margin: 0;
@@ -55,7 +55,7 @@ const Layout = ({ children }) => {
       <main
         css={css`
           margin: 2rem auto;
-          max-width: 800px;
+          max-width: 900px;
         `}
       >
         {children}
