@@ -2,23 +2,13 @@ import React from "react";
 import allPosts from "../hooks/allPosts";
 import Img from "gatsby-image";
 import { Link } from "gatsby";
-import { css } from "@emotion/core";
 import Layout from "../components/layout";
 
 export default function posts() {
   const posts = allPosts();
   return (
     <Layout>
-      <div
-        css={css`
-          display: grid;
-          grid-gap: 4%;
-          grid-template-columns: repeat(auto-fill, minmax(26%, 1fr));
-          /* div :first-of-type {
-            margin-top: 1rem;
-          } */
-        `}
-      >
+      <div className="posts">
         {posts.map(post => (
           <div>
             <Img

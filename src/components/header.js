@@ -8,14 +8,16 @@ export default function header() {
       <h2>
         <Link to="/">Start Gatsby</Link>
       </h2>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/posts">Themes</Link>
-        </li>
-      </ul>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/posts">Blog</Link>
+          </li>
+        </ul>
+      </nav>
     </header>
   );
 }

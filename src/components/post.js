@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, graphql } from "gatsby";
-import { css } from "@emotion/core";
 import { MDXRenderer } from "gatsby-mdx";
 import Layout from "./layout";
 import Img from "gatsby-image";
@@ -30,7 +29,9 @@ export default function post({ data: { mdx: post } }) {
   return (
     <Layout>
       <Link to="/posts">
-        <span role="img">👈</span>
+        <span role="img" aria-label="back">
+          👈
+        </span>
       </Link>
       <Img
         fluid={post.frontmatter.banner.sharp.fluid}
