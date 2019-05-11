@@ -18,7 +18,7 @@ export default function header() {
           color: white;
         `}
       >
-        StartGatsby
+        <Link to="/">StartGatsby</Link>
       </h2>
       <ul
         css={css`
