@@ -12,9 +12,10 @@ export default () => (
             font-weight: 100;
           `}
         >
-          Blazing Fast Website In Few Lines Of Code With Gatsy Themes
+          Building products should be fast not repetitive. Gatsby Theme to
+          rescue.
         </h1>
-        <p css={css``}>Let's make gatsby more accessable with themes! 🍻</p>
+        <p>Let's make gatsby more accessable with themes! 🍻</p>
       </div>
       <img src={hero} alt="" />
     </section>
