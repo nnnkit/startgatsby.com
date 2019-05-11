@@ -14,9 +14,9 @@ export default function posts() {
           display: grid;
           grid-gap: 4%;
           grid-template-columns: repeat(auto-fill, minmax(26%, 1fr));
-          div :first-of-type {
+          /* div :first-of-type {
             margin-top: 1rem;
-          }
+          } */
         `}
       >
         {posts.map(post => (

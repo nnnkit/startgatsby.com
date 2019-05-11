@@ -1,5 +1,6 @@
 import React from "react";
 import { css } from "@emotion/core";
+import { Link } from "gatsby";
 
 export default function header() {
   return (
@@ -29,11 +30,18 @@ export default function header() {
             padding: 0.5rem 1rem;
             margin-right: 1rem;
             color: #fff;
+            a {
+              color: #fff;
+            }
           }
         `}
       >
-        <li>Home</li>
-        <li>Themes</li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/posts">Themes</Link>
+        </li>
       </ul>
     </header>
   );
