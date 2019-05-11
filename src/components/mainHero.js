@@ -4,7 +4,7 @@ import hero from "./../images/hero.svg";
 
 export default () => (
   <div>
-    <section className="hero__section">
+    <section className="hero__section" css={css``}>
       <div>
         <h1
           css={css`
