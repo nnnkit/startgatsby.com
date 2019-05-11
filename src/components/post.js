@@ -29,12 +29,7 @@ export const query = graphql`
 export default function post({ data: { mdx: post } }) {
   return (
     <Layout>
-      <Link
-        to="/posts"
-        css={css`
-          font-size: 40px;
-        `}
-      >
+      <Link to="/posts">
         <span role="img">👈</span>
       </Link>
       <Img

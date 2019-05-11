@@ -23,10 +23,6 @@ export default function posts() {
           <div>
             <Img
               fluid={post.frontmatter.banner.sharp.fluid}
-              css={css`
-                width: 300px;
-                height: 200px;
-              `}
               alt={post.frontmatter.title}
             />
             <Link to={post.frontmatter.slug}>
