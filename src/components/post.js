@@ -29,7 +29,7 @@ export default function post({ data: { mdx: post } }) {
   return (
     <Layout>
       <Link to="/posts">
-        <span role="img" aria-label="back">
+        <span role="img" aria-label="back" class="icon__back">
           👈
         </span>
       </Link>
