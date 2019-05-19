@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: startgatsby.com
+Token: 531e0b3c8c022e4a264916d8382abb30e974ccc006b273a8795186d351b5d472
