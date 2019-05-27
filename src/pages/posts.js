@@ -6,6 +6,7 @@ import Layout from "../components/layout";
 
 export default function posts() {
   const posts = allPosts();
+  console.log(posts)
   return (
     <Layout>
       <div className="posts">
